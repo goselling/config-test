@@ -13,8 +13,8 @@ spring:
       resourceserver:
         jwt:
           #         https
-          issuer-uri: https://localhost:1234/auth/realms/go-selling-api
-          jwk-set-uri: https://localhost:1234/auth/realms/go-selling-api/protocol/openid-connect/certs
+          issuer-uri: https://keycloak.trade-wise.online/auth/realms/go-selling-api
+          jwk-set-uri: https://keycloak.trade-wise.online/auth/realms/go-selling-api/protocol/openid-connect/certs
 #          local
 #          issuer-uri: http://localhost:1234/auth/realms/go-selling-api
 #          jwk-set-uri: http://localhost:1234/auth/realms/go-selling-api/protocol/openid-connect/certs
