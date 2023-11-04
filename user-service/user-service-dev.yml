@@ -4,8 +4,8 @@ spring:
       resourceserver:
         jwt:
           #         https
-          issuer-uri: https://keycloak.trade-wise.online/auth/realms/go-selling-api
-          jwk-set-uri: https://keycloak.trade-wise.online/auth/realms/go-selling-api/protocol/openid-connect/certs
+          issuer-uri: http://localhost:1234/auth/realms/go-selling-api
+          jwk-set-uri: http://localhost:1234/auth/realms/go-selling-api/protocol/openid-connect/certs
   #          local
   #          issuer-uri: http://localhost:1234/auth/realms/go-selling-api
   #          jwk-set-uri: http://localhost:1234/auth/realms/go-selling-api/protocol/openid-connect/certs
@@ -34,7 +34,7 @@ eureka:
 keycloak:
   realm: go-selling-api
   resource: go-selling
-  auth-server-url: https://keycloak.trade-wise.online/auth
+  auth-server-url: http://localhost:1234/auth
   credentials:
     username: 'tradewise'
     password: 'tradewise321'
