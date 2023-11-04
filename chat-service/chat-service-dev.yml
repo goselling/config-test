@@ -30,7 +30,7 @@ keycloak:
     username: 'tradewise'
     password: 'tradewise321'
     client-id: '{cipher}68cb01c2cb6cc09d52d307bb77df71dd6ea99df0449c664e7031b6cbb6529055'
-    secret: '{cipher}42d5f710c20655adbeeb9e9eb6d161d048664f4a9e749ede11e2cefa937299e79dc63978e0e88f6eb32a730d84c50413514e4df55f056586a6813b2b647d445a'
+    secret: '{cipher}99bec8cc39b5461f7110a488ba1d2e213fbc7fd5adc557fb6a12e1724a366ea4cc59bd64ee9b7bba877615b6dff336c0a47780fbaf930d369f9a3ba2ceb8fa82'
     provider: secret      
 openapi:
   service:
@@ -45,5 +45,5 @@ springdoc:
     oauth:
       realm: 'go-selling-api'
       client-id: '{cipher}68cb01c2cb6cc09d52d307bb77df71dd6ea99df0449c664e7031b6cbb6529055'
-      clientSecret: '{cipher}42d5f710c20655adbeeb9e9eb6d161d048664f4a9e749ede11e2cefa937299e79dc63978e0e88f6eb32a730d84c50413514e4df55f056586a6813b2b647d445a'
+      clientSecret: '{cipher}99bec8cc39b5461f7110a488ba1d2e213fbc7fd5adc557fb6a12e1724a366ea4cc59bd64ee9b7bba877615b6dff336c0a47780fbaf930d369f9a3ba2ceb8fa82'
     path: /chat-service/swagger-ui.html
