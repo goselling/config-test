@@ -42,4 +42,8 @@ springdoc:
   api-docs:
     path: /chat-service/v3/api-docs
   swagger-ui:
+    oauth:
+      realm: 'go-selling-api'
+      client-id: '{cipher}68cb01c2cb6cc09d52d307bb77df71dd6ea99df0449c664e7031b6cbb6529055'
+      clientSecret: '{cipher}42d5f710c20655adbeeb9e9eb6d161d048664f4a9e749ede11e2cefa937299e79dc63978e0e88f6eb32a730d84c50413514e4df55f056586a6813b2b647d445a'
     path: /chat-service/swagger-ui.html
