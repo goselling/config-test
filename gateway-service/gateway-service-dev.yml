@@ -4,26 +4,16 @@ spring:
       resourceserver:
         jwt:
           #         https
-          issuer-uri: http://localhost:1234/auth/realms/go-selling-api
-          jwk-set-uri: http://localhost:1234/auth/realms/go-selling-api/protocol/openid-connect/certs
-        #  issuer-uri: http://localhost:1234/auth/realms/go-selling-api
-        #  jwk-set-uri: http://localhost:1234/auth/realms/go-selling-api/protocol/openid-connect/certs
+          issuer-uri: https://keycloak.trade-wise.online/auth/realms/go-selling-api
+          jwk-set-uri: https://keycloak.trade-wise.online/auth/realms/go-selling-api/protocol/openid-connect/certs
+#          local
+#          issuer-uri: http://localhost:1234/auth/realms/go-selling-api
+#          jwk-set-uri: http://localhost:1234/auth/realms/go-selling-api/protocol/openid-connect/certs
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
       # defaultZone: http://8.222.225.41:8761/eureka/
-
-keycloak:
-  realm: go-selling-api
-  resource: go-selling
-  auth-server-url: http://localhost:1234/auth
-  credentials:
-    username: 'tradewise'
-    password: 'tradewise321'
-    client-id: '{cipher}68cb01c2cb6cc09d52d307bb77df71dd6ea99df0449c664e7031b6cbb6529055'
-    secret: '{cipher}42d5f710c20655adbeeb9e9eb6d161d048664f4a9e749ede11e2cefa937299e79dc63978e0e88f6eb32a730d84c50413514e4df55f056586a6813b2b647d445a'
-    provider: secret
 
 springdoc:
   api-docs:
